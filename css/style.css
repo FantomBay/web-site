@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@keyframes animation_icon {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+body {
+    margin: 0;
+    background-color: #f1f1f1;
+    font-family: "Comic Sans MS", Tahoma, sans-serif;
+    font-size: 16px;
+    color: #111;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.page {
+    overflow: hidden;
+    display: grid;
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    padding: 10px 20px;
+    background-color: #010020;
+    color: #eae9eb;
+    border-left: 3px solid #f0ff20;
+    
+}
+
+.header_name{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+    margin: 0px;
+    color: #f1f1f1;
+    text-decoration: none; 
+     
+}
+
+.header_photo{
+    display: inline-block;
+    background-image: url(../images/photo.jpg);
+    background-size: 120px;
+    vertical-align: middle;
+    background-position: center;
+    border: #f0ff20 solid 3px;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+h4{
+    color: grey;
+}
+
+.dtln{color: #abb432;}
+
+.footer{
+    padding: 20px;
+    background-color: #010020;
+    color: #eae9eb;
+    border-top: 3px solid #f0ff20;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+
+
+.contact_icon{
+    text-align: center;
+}
+.open_contacts{font-size: 5px;}
+
+.fas{
+    font-size: 18px;
+    padding: 0;
+}
+
+.fa-at{color:#DB4437;}
+.fa-phone{color:green;}
+
+.fab{
+    font-size: 25px;
+    padding: 12px;
+}
+
+.fab:hover{animation: animation_icon 1s;}
+
+.fa-telegram{color: #0088cc;}
+.fa-linkedin{color:#0e76a8}
+.fa-github{color: #535353;}
+
+
+.footer {
+    margin-top: auto;
+}
+
+.footer_ip {
+    display: flex;
+    color: greenyellow;
+    font-size: 10px;
+    
+}

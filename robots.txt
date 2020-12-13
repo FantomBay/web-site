@@ -1,0 +1,9 @@
+User-agent: Googlebot
+Disallow: /css
+Host: byalexa.site
+Host: www.byalexa.site
+Sitemap: http://byalexa.site/sitemap.xml
+Disallow: /admin/
+Disallow: /images/
+User-agent: Slurp
+User-agent: Googlebot-Image
